@@ -15,22 +15,22 @@ public class Exercício9 {
 		}
 		
 	    int[] pares = new int[10];
-	    int[] ímpares = new int[10];
+	    int[] impares = new int[10];
 	    int contpares = 0;
-	    int contímpares = 0;
+	    int contimpares = 0;
 	    
 	    for (int i = 0; i < vetor.length; i++) {
 	    if (vetor[i] % 2 == 0) {
 	    pares[contpares] = vetor[i];
 	    contpares++;
 	    } else {
-	    ímpares[contímpares] = vetor[i];
-	    contímpares++;
+	    impares[contimpares] = vetor[i];
+	    contimpares++;
 	    }
 		}
 	    
 	    Arrays.sort(pares, 0, contpares);    
-        Arrays.sort(ímpares, 0, contímpares);
+        Arrays.sort(impares, 0, contimpares);
 	    Arrays.sort(vetor);
 	    
 	    System.out.print("Vetor original: ");
@@ -42,8 +42,8 @@ public class Exercício9 {
 	    System.out.print(pares[i] + " ");
 		} System.out.println();
 		System.out.print("Ímpares: ");
-	    for (int i = 0; i < contímpares; i++) {
-	    System.out.print(ímpares[i] + " ");
+	    for (int i = 0; i < contimpares; i++) {
+	    System.out.print(impares[i] + " ");
 	    }
 	}
 }
