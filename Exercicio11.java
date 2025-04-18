@@ -1,9 +1,9 @@
-package Exercícios;
+package exercicios;
 
 import java.util.Arrays;
 import java.util.Random;
 
-public class Exercício11 {
+public class Exercicio11 {
 
 	public static void main(String[] args) {
 		
