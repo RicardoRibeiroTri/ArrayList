@@ -1,9 +1,9 @@
-package ArrayList;
+package array.list;
 
 import java.util.Arrays;
 import java.util.Random;
 
-public class Exercício5e6 {
+public class Exercicio5e6 {
 
 	public static void main(String[] args) {
 		
