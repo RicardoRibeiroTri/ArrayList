@@ -1,9 +1,9 @@
-package ArrayList;
+package array.list;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class Exercício7 {
+public class Exercicio7 {
 
 	public static void main(String[] args) {
 
