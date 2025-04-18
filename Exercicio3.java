@@ -1,8 +1,8 @@
-package ArrayList;
+package array-list;
 
 import java.util.Random;
 
-public class Exercício3 {
+public class Exercicio3 {
 
 	public static void main(String[] args) {
       
