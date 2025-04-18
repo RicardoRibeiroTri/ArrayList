@@ -1,9 +1,9 @@
-package VetoresMatrizes;
+package vetores.matrizes;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class Exercício2 {
+public class Exercicio2 {
 
 	public static void main(String[] args) {
 		
